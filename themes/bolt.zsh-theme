@@ -1,6 +1,6 @@
 function ssh_connection() {
   if [[ -n $SSH_CONNECTION ]]; then
-    echo "%{$fg_bold[cyan]%}☁ "
+    echo "%{$fg_bold[cyan]%}☁  "
   fi
 }
 
